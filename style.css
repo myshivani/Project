@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+/* ============================navbar================ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px black;
+}
+.nav1{
+    /* background-color: green; */
+    padding: 10px;
+}
+.nav2 ul{
+display: flex;
+}
+.nav2 ul li{
+    list-style-type: none;
+    padding: 10px;
+    /* background-color: green; */
+}
+.nav2 ul li:hover, .nav1:hover{
+    background-color: #CCCCCC;
+}
+
+/* =====================main container============= */
+
+.imgContainer img{
+    width: 100vw;
+}
+.imgContainer .text{
+    position: relative;
+    top: -81px;
+    left: 24px;
+    width: fit-content;
+    font-size: 3rem;
+    color: #5D5F61;
+}
+.about{
+    /* border: 2px solid black; */
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+}
+.aboutImg img{
+    width: 45vw;
+    padding: 20px;
+    opacity: 0.8;
+}
+.aboutContent{
+    width: 45vw;
+    padding: 20px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.aboutContent h3{
+    letter-spacing: 5px;
+    font-size: 2rem;
+    padding: 50px 0 50px 0;
+}
+.aboutContent h4{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.aboutContent p{
+    text-align: left;
+    padding: 10px;
+    font-size: 1.2rem;
+    word-spacing: 4px;
+    width: 100%;
+}
+.aboutContent p span{
+    background-color: rgba(185, 180, 180, 0.726);
+    padding: 0 3px;
+}
+.aboutContent .txt-gray{
+    color: gray;
+}
