@@ -44,18 +44,18 @@ display: flex;
     font-size: 3rem;
     color: #5D5F61;
 }
-.about{
+.about, .ourMenu{
     /* border: 2px solid black; */
     width: 100vw;
     padding: 10px;
     display: flex;
 }
-.aboutImg img{
+.aboutImg img, .ourMenu img{
     width: 45vw;
     padding: 20px;
     opacity: 0.8;
 }
-.aboutContent{
+.aboutContent, .ourMenuContent{
     width: 45vw;
     padding: 20px;
     /* border: 2px solid black; */
@@ -84,5 +84,17 @@ display: flex;
     padding: 0 3px;
 }
 .aboutContent .txt-gray{
+    color: gray;
+}
+.ourMenuContent h2{
+    text-align: left;
+    padding: 20px 0;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.ourMenuContent p{
+    text-align: left;
+    padding: 10px 0;
     color: gray;
 }
