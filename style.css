@@ -98,3 +98,52 @@ display: flex;
     padding: 10px 0;
     color: gray;
 }
+.contact p{
+    padding: 20px;
+}
+.contact h3{
+    padding: 20px;
+    color: #93D6FF;
+}
+form{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    width: 95vw;
+    height: 40px;
+    margin: 0px 20px;
+    padding: 10px 0 10px 5px;
+    font-weight: bold;
+    color: rgb(187, 182, 182);
+    border: none;
+    border-bottom:1px solid gray ;
+}
+input[type="datetime-local"]{
+    color: black;
+    font-weight: normal;
+}
+button{
+    margin: 20px 20px; 
+    padding: 10px 20px;
+    border: none;
+}
+button:hover{
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: black;
+}
+footer a:hover{
+    color: blue;
+}
